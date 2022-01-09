@@ -1,32 +1,7 @@
-# ----------------------------------------------------------------------------
-#  CMakeLists.txt for C++ Kortex API Examples
-#  Copyright © 2018 Kinova Robotics
-#
-#  Build instructions for the supported platforms (CMake only) : 
-#
-#  In Linux (x86-64 architecture):
-#  From the api_cpp/examples directory, invoke:
-#    $ mkdir build
-#    $ cd build/
-#    $ cmake .. 
-#    $ make
-#
-#  In Windows (MinGW) :
-#  From the api_cpp/examples directory, invoke:
-#    $ mkdir build
-#    $ cd build/
-#    $ cmake .. -G "MinGW Makefiles"
-#    $ mingw32-make
-#
-#  In Windows (MSVC command line) :
-#  From the api_cpp/examples directory, invoke:
-#    $ call "C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Auxiliary\Build\vcvars64.bat" [MODIFY THIS PATH FOR YOURS]
-#    $ mkdir build
-#    $ cd build/
-#    $ cmake .. -G "NMake Makefiles"
-#    $ nmake
-#
-# ----------------------------------------------------------------------------
+# -----------------------------------------------
+# CMakeLists for Wosler Robot Driver. 01-08-2022
+# -----------------------------------------------
+
 cmake_minimum_required(VERSION 3.5)
 
 project(kortexApiCppExamples VERSION 2.3.0 LANGUAGES CXX)
